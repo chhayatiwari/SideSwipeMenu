@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_9" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,19 +15,19 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SwipeSideMenuBar" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="7aJ-LL-oQT">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="602"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YDP-9k-bKz">
-                                <rect key="frame" x="0.0" y="35" width="175" height="746"/>
+                                <rect key="frame" x="0.0" y="35" width="175" height="518"/>
                                 <subviews>
                                     <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d3p-Wq-wL5">
-                                        <rect key="frame" x="-1" y="0.0" width="175" height="746"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="175" height="518"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="La5-by-lom">
-                                            <rect key="frame" x="0.0" y="0.0" width="175" height="746"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="175" height="518"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <button clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fcs-ho-Nlr">
@@ -82,9 +82,9 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="d3p-Wq-wL5" firstAttribute="centerX" secondItem="YDP-9k-bKz" secondAttribute="centerX" constant="-1" id="6ch-ps-rmF"/>
                                     <constraint firstItem="d3p-Wq-wL5" firstAttribute="height" secondItem="YDP-9k-bKz" secondAttribute="height" id="IGt-Ob-mFm"/>
                                     <constraint firstItem="d3p-Wq-wL5" firstAttribute="centerY" secondItem="YDP-9k-bKz" secondAttribute="centerY" id="PVg-WH-vXy"/>
+                                    <constraint firstItem="d3p-Wq-wL5" firstAttribute="leading" secondItem="YDP-9k-bKz" secondAttribute="leading" id="QwP-nn-QDR"/>
                                     <constraint firstAttribute="width" constant="175" id="b0Y-fz-VgI"/>
                                     <constraint firstItem="d3p-Wq-wL5" firstAttribute="width" secondItem="YDP-9k-bKz" secondAttribute="width" id="hCl-cd-1Mk"/>
                                 </constraints>
@@ -97,7 +97,7 @@
                             <constraint firstItem="7aJ-LL-oQT" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Cll-a1-67V"/>
                             <constraint firstItem="YDP-9k-bKz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="F1u-6S-W9C"/>
                             <constraint firstItem="YDP-9k-bKz" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="35" id="KBF-IN-23v"/>
-                            <constraint firstItem="YDP-9k-bKz" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="3" id="ZSy-aX-bCX"/>
+                            <constraint firstAttribute="bottom" secondItem="YDP-9k-bKz" secondAttribute="bottom" constant="15" id="O3z-3S-lnU"/>
                             <constraint firstItem="7aJ-LL-oQT" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="34" id="fcO-3a-95X"/>
                             <constraint firstItem="7aJ-LL-oQT" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="prH-ci-MhK"/>
                         </constraints>
